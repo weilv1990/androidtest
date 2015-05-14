@@ -13,6 +13,11 @@
 
     <TextView android:text="@string/hello_world" android:layout_width="wrap_content"
         android:layout_below="@id/bt_main"
+        android:id="@+id/tv_main"
+        android:layout_height="wrap_content" />
+
+    <TextView android:text="hello_world2" android:layout_width="wrap_content"
+        android:layout_below="@id/tv_main"
         android:layout_height="wrap_content" />
 
 </RelativeLayout>
